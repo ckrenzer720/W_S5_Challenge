@@ -58,8 +58,6 @@ async function sprintChallenge5() { // Note the async keyword so you can use `aw
     // ❗ Also, loop over the mentors inside the learner object, creating an <li> element for each mentor.
     // ❗ Fill each <li> with a mentor name, and append it to the <ul> mentorList.
     // ❗ Inspect the mock site closely to understand what the initial texts and classes look like!
-    console.log(learner)
-
     const card = document.createElement('div')
     card.classList.add("card")
 
@@ -83,6 +81,7 @@ async function sprintChallenge5() { // Note the async keyword so you can use `aw
       mentorsList.appendChild(mentorsName)
       
     })
+    
     
     // 👆 ==================== TASK 3 END ====================== 👆
 
